@@ -35,7 +35,7 @@ function App() {
   return (
 
     <div className="bg-slate-800 h-screen w-screen flex flex-col justify-center items-center gap-6">
-      <h1 className="text-4xl text-green-700 decoration-solid">
+      <h1 className="text-4xl text-white  decoration-solid">
         password generator 
       </h1>
 
