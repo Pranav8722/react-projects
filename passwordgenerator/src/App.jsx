@@ -55,7 +55,7 @@ function App() {
             setrange(Number(e.target.value))
           }} />
           <label htmlFor="numb">number:</label>
-          <input type="checkbox" value="number" id="numb" className="mr-6" onChange={()=>{
+          <input type="checkbox"  id="numb" className="mr-6" onChange={()=>{
             addNumb(prev=>!prev)
           }}/>
           <label htmlFor="symb">symbol:</label>
