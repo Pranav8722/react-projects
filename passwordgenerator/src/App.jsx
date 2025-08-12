@@ -59,7 +59,7 @@ function App() {
             addNumb(prev=>!prev)
           }}/>
           <label htmlFor="symb">symbol:</label>
-          <input type="checkbox" value="symbol" id="symb" onChange={()=>{
+          <input type="checkbox"   id="symb" onChange={()=>{
             addSymb(prev=>!prev)
           }}/>
         </div>
