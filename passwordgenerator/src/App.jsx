@@ -46,7 +46,7 @@ function App() {
             type="text"
             className="h-12 w-[350px] my-5 text-3xl text-green-950"
           />
-          <button className="bg-blue-700 h-12 w-12 my-5 rounded-r-md" onClick={copy}>copy</button>
+          <button className="bg-blue-800 h-12 w-12 my-5 rounded-r-md" onClick={copy}>Copy</button>
         </div>
 
         <div className="flex justify-center gap-1">
