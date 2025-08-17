@@ -25,7 +25,7 @@ function InputBox1({
         />
 
         <select
-          className='bg-black text-white rounded-r-xl h-[60px] px-2'
+          className='bg-sky-700 text-white rounded-r-xl h-[60px] px-2'
           value={selectCurrency}
           onChange={(e) =>
             onCurrencyChange && onCurrencyChange(e.target.value)
