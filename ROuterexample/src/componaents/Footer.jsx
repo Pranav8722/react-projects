@@ -4,7 +4,7 @@ function Footer() {
   return (
    <div className='h-44 w-full flex items-center bg-gray-200 border border-slate-950 justify-between absolute bottom-0 '>
         <div className="flex text-3xl items-center  font-semibold m-6">
-        <h1><span className='text-orange-500'>My</span>Site <sup className='text-blue-400'>®</sup></h1>
+        <h1><span className='text-orange-700'>My</span>Site <sup className='text-blue-400'>®</sup></h1>
         </div>
 
     <div className="flex gap-24 ">
